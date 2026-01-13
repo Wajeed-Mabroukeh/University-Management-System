@@ -18,9 +18,8 @@ This project uses a Layered Architecture approach:
 
 -Controllers (API Layer)
 -Services (Business Logic)
--DTOs (Data Transfer)
+-DataBase (Data Transfer & DbContext & Persistence)
 -Models (Domain Entities)
--Data (DbContext & Persistence)
 
 Key Benefits
 
@@ -36,11 +35,11 @@ Key Benefits
 
 -Framework: ASP.NET Core Web API (.NET 6+)
 
--Database: MySql 
+-Database: MySql (SSMS Database)
 
 -ORM: Entity Framework Core
 
--API Documentation: Swagger / OpenAPI
+-API Documentation: Swagger / Postman
 
 -Architecture Pattern: Layered Architecture
 

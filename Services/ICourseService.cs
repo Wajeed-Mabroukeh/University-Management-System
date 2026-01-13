@@ -1,4 +1,5 @@
 using MyApiProject.Models;
+using UniversityManagement.Models;
 
 namespace MyApiProject.Services;
 

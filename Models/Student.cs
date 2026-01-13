@@ -1,9 +1,17 @@
-namespace MyApiProject.Models;
+﻿using System;
+using System.Collections.Generic;
 
-public class Student
+namespace UniversityManagement.Models;
+
+public partial class Student
 {
     public int Id { get; set; }
-    public string StudentNumber { get; set; } = null!;
-    public string Name { get; set; } = null!;
-    public string Major { get; set; } = null!;
+
+    public string? StudentNumber { get; set; }
+
+    public string? Name { get; set; }
+
+    public string? Major { get; set; }
+
+    public virtual ICollection<Enrollment> Enrollments { get; } = new List<Enrollment>();
 }

@@ -1,13 +1,15 @@
-using MyApiProject.DataBase;
+using Microsoft.EntityFrameworkCore;
 using MyApiProject.Models;
+using MyApiProject.Services;
+using UniversityManagement.Models;
 
-namespace MyApiProject.Services;
+namespace UniversityManagement.Services;
 
 public class CourseService : ICourseService
 {
-    private readonly UniversityManagementContext _context;
+    private readonly UniversityManagementSystemContext _context;
 
-    public CourseService(UniversityManagementContext context)
+    public CourseService(UniversityManagementSystemContext context)
     {
         _context = context;
     }
@@ -31,7 +33,7 @@ public class CourseService : ICourseService
 
         var courseClass = new CourseClass
         {
-            Course = course,
+            CourseName = dto.CourseName,
             ClassName = dto.ClassName,
             Days = dto.Days,
             StartTime = dto.StartTime,

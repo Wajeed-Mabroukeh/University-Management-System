@@ -1,5 +1,5 @@
-🎓 University Management System – ASP.NET Core Web API
-<br>📌 Project Overview
+# University Management System – ASP.NET Core Web API <br>
+## Project Overview
 
 The University Management System is a backend application built with ASP.NET Core Web API (.NET 6+) designed to manage course classes and student enrollment.
 It is architected to serve multiple client applications, including:
@@ -12,7 +12,7 @@ It is architected to serve multiple client applications, including:
 
 The system follows a layered architecture with clear separation of concerns, making it scalable, testable, and easy to extend.
 
-🏗 Architecture
+# 🏗 Architecture
 
 This project uses a Layered Architecture approach:
 
@@ -31,7 +31,7 @@ Key Benefits
 
 -Ready for future enhancements (JWT, roles, caching, etc.)
 
-🛠 Tech Stack
+# 🛠 Tech Stack
 
 -Framework: ASP.NET Core Web API (.NET 6+)
 
@@ -45,8 +45,8 @@ Key Benefits
 
 -Authentication: Basic / simulated (extendable)
 
-✨ Features
-👨‍💼 Admin Portal
+# ✨ Features
+# 👨‍💼 Admin Portal
 
 Administrators can:
 
@@ -64,7 +64,7 @@ Administrators can:
 
 -No two classes can share the same days & time
 
-🎓 Student Portal
+# 🎓 Student Portal
 
 Students can:
 
@@ -80,7 +80,7 @@ Students can:
 
 -Student data is loaded from the system database<br>
 <br><br>
-📁 Project Structure
+# 📁 Project Structure
 <br>
 UniversityManagementSystem<br>
 │<br>
@@ -109,8 +109,8 @@ UniversityManagementSystem<br>
 │<br>
 ├── Program.cs<br>
 └── appsettings.json<br>
-<br>
-🚀 Getting Started<br>
+
+# Getting Started <br>
 1️⃣ Clone the Repository<br>
 git clone https://github.com/Wajeed-Mabroukeh/University-Management-System.git<br>
 cd universitymanagement<br>
@@ -126,14 +126,13 @@ dotnet run<br>
 
 5️⃣ Open Swagger<br>
 https://localhost:{port}/swagger<br>
-
-🔌 API Endpoints (Summary)<br>
-Admin<br>
+# API Endpoints (Summary)<br>
+## Admin<br>
 
 POST /api/admin/course-class<br>
 Create a new course class<br>
 
-Student<br>
+## Student<br>
 
 GET /api/student/courses/{major}<br>
 Get open courses by major<br>
@@ -141,7 +140,7 @@ Get open courses by major<br>
 POST /api/student/register<br>
 Register student in a course class<br>
 
-🧪 Validation & Business Rules<br>
+# 🧪 Validation & Business Rules<br>
 
 Schedule conflict detection using time overlap logic<br>
 
@@ -149,7 +148,7 @@ Capacity enforcement before enrollment<br>
 
 Clean exception handling with meaningful error messages<br>
 
-🔮 Future Enhancements<br>
+# 🔮 Future Enhancements<br>
 
 JWT Authentication & Authorization<br>
 
@@ -163,7 +162,7 @@ AI chatbot integration endpoints<br>
 
 Docker support<br>
 
-👨‍💻 Author<br>
+# 👨‍💻 Author<br>
 
 Wajeed Mabroukeh<br>
 Backend Developer – ASP.NET Core<br>

@@ -1,13 +1,15 @@
-using MyApiProject.DataBase;
+using Microsoft.EntityFrameworkCore;
 using MyApiProject.Models;
+using MyApiProject.Services;
+using UniversityManagement.Models;
 
-namespace MyApiProject.Services;
+namespace UniversityManagement.Services;
 
 public class StudentService : IStudentService
 {
-    private readonly UniversityManagementContext _context;
+    private readonly UniversityManagementSystemContext _context;
 
-    public StudentService(UniversityManagementContext context)
+    public StudentService(UniversityManagementSystemContext context)
     {
         _context = context;
     }

@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using MyApiProject.Models;
 using MyApiProject.Services;
+using UniversityManagement.Services;
 
 namespace MyApiProject.Controllers;
 
@@ -8,10 +9,10 @@ namespace MyApiProject.Controllers;
 [Route("api/student")]
 public class StudentController : ControllerBase
 {
-    private readonly ICourseService _courseService;
-    private readonly IStudentService _studentService;
+    private readonly CourseService _courseService;
+    private readonly StudentService _studentService;
 
-    public StudentController(ICourseService courseService, IStudentService studentService)
+    public StudentController(CourseService courseService, StudentService studentService)
     {
         _courseService = courseService;
         _studentService = studentService;

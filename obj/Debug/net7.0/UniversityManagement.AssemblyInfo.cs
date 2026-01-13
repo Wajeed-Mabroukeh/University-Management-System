@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UniversityManagement")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d24ed61167ae99caac7803668932018304cbb34b")]
 [assembly: System.Reflection.AssemblyProductAttribute("UniversityManagement")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UniversityManagement")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

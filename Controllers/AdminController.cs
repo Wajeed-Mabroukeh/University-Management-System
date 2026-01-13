@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Mvc;
 using MyApiProject.Models;
 using MyApiProject.Services;
+using UniversityManagement.Services;
 
 namespace MyApiProject.Controllers;
 
@@ -10,7 +11,7 @@ public class AdminController : ControllerBase
 {
     private readonly ICourseService _courseService;
 
-    public AdminController(ICourseService courseService)
+    public AdminController(CourseService courseService)
     {
         _courseService = courseService;
     }
